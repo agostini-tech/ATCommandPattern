@@ -23,6 +23,4 @@ class AddVehicleAPICommand: Command
     func undo() -> Result {
         return self.vehicleAPI.deleteFromBackend()
     }
-    
-    
 }

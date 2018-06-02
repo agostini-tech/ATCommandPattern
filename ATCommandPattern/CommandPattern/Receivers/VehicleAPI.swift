@@ -24,8 +24,8 @@ class VehicleAPI
         print("Sending the vehicle '\(vehicle.name)' to backend!")
         
         // Simulate failure
-        let success = false//Bool.random
-        print("Random success: ", success)
+        let success = false //Bool.random
+        
         if success == true {
             print("Success")
             return .success

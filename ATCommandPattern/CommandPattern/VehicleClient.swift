@@ -11,7 +11,7 @@ import Foundation
 class VehicleClient
 {
     // This would be your normal controller, you'll have your business logic here.
-    // Among other things this class will creat your commands and pass them to the invoker.
+    // Among other things this class will create your commands and pass them to the invoker.
     
     private let invoker = BatchInvoker()
     
